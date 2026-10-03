@@ -1,24 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Brand Name | Professional Web Services & Starter Package</title>
+    <title>Elite Design by Sister Ekua Abrafi | Professional Web Services</title>
+    
     <!-- Tailwind CSS for modern, responsive styling -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation CSS for scroll effects -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+<body class="bg-slate-50 text-slate-800 font-sans antialiased overflow-x-hidden">
 
     <!-- HEADER / NAVIGATION -->
     <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
         <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-black text-indigo-600 tracking-tight">Brand<span class="text-slate-900">Name</span></a>
+            <a href="#" class="flex items-center gap-3">
+                <span class="bg-indigo-600 text-white w-10 h-10 rounded-xl flex items-center justify-center text-lg shadow-md"><i class="fas fa-cube"></i></span>
+                <div>
+                    <span class="text-xl font-black text-indigo-600 tracking-tight leading-none block">Elite<span class="text-slate-900">Design</span></span>
+                    <span class="text-xs font-semibold text-slate-500 tracking-wider uppercase">By Sister Ekua Abrafi</span>
+                </div>
+            </a>
             <nav class="hidden md:flex space-x-8 font-medium text-slate-600">
                 <a href="#home" class="hover:text-indigo-600 transition">Home</a>
                 <a href="#about" class="hover:text-indigo-600 transition">About</a>
                 <a href="#process" class="hover:text-indigo-600 transition">How It Works</a>
-                <a href="#pricing" class="hover:text-indigo-600 transition">Pricing</a>
+                <a href="#pricing" class="hover:text-indigo-600 transition">Pricing & Terms</a>
                 <a href="#faq" class="hover:text-indigo-600 transition">FAQ</a>
                 <a href="#contact" class="hover:text-indigo-600 transition">Contact</a>
             </nav>
@@ -31,27 +43,29 @@
     <!-- HERO SECTION -->
     <section id="home" class="py-20 md:py-32 bg-gradient-to-br from-indigo-900 via-indigo-800 to-slate-900 text-white">
         <div class="max-w-6xl mx-auto px-4 text-center">
-            <span class="bg-indigo-500/30 text-indigo-200 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider mb-4 inline-block">Starter Web Presence</span>
-            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
-                Establish Your Digital Footprint <br class="hidden md:inline">Today, Affordably.
-            </h1>
-            <p class="text-lg md:text-xl text-indigo-200 max-w-2xl mx-auto mb-10">
-                Get a fast, mobile-friendly, and professional 1–5 page website tailored to launch your startup, freelance business, or personal brand.
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#contact" class="bg-white text-indigo-900 hover:bg-indigo-50 font-bold px-8 py-3.5 rounded-xl shadow-lg transition">Get Started (From GH¢ 250)</a>
-                <a href="#pricing" class="border border-indigo-400 text-white hover:bg-indigo-800/50 font-semibold px-8 py-3.5 rounded-xl transition">View Pricing</a>
+            <div data-aos="fade-up" data-aos-duration="800">
+                <span class="bg-indigo-500/30 text-indigo-200 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider mb-4 inline-block">Starter Web Presence by Sister Ekua Abrafi</span>
+                <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+                    Establish Your Digital Footprint <br class="hidden md:inline">Today, Affordably.
+                </h1>
+                <p class="text-lg md:text-xl text-indigo-200 max-w-2xl mx-auto mb-10">
+                    Get a fast, mobile-friendly, and professional 1–5 page website tailored to launch your startup, freelance business, or personal brand.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#contact" class="bg-white text-indigo-900 hover:bg-indigo-50 font-bold px-8 py-3.5 rounded-xl shadow-lg transition">Get Started (From GH¢ 250)</a>
+                    <a href="#pricing" class="border border-indigo-400 text-white hover:bg-indigo-800/50 font-semibold px-8 py-3.5 rounded-xl transition">View Pricing</a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- ABOUT SECTION -->
-    <section id="about" class="py-20 bg-white">
+    <section id="about" class="py-20 bg-white overflow-hidden">
         <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
-            <div>
+            <div data-aos="fade-right" data-aos-duration="800">
                 <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-6">Built Simple, Fast, and Optimized for Success</h2>
                 <p class="text-slate-600 mb-4 leading-relaxed">
-                    Our Starter Package is specifically crafted for new businesses, artisans, and freelancers who want a clean online storefront without the high costs of complex corporate platforms.
+                    At Elite Design, our Starter Package is specifically crafted by Sister Ekua Abrafi for new businesses, artisans, and freelancers who want a clean online storefront without high corporate costs.
                 </p>
                 <p class="text-slate-600 mb-6 leading-relaxed">
                     We handle your design layout, mobile responsiveness, contact forms, and basic search engine indexing so your customers can discover you effortlessly.
@@ -59,20 +73,20 @@
                 <ul class="space-y-3 font-medium text-slate-700">
                     <li class="flex items-center gap-3"><i class="fas fa-check-circle text-indigo-600"></i> Responsive 1–5 Page Website Design</li>
                     <li class="flex items-center gap-3"><i class="fas fa-check-circle text-indigo-600"></i> Fast Delivery Timeline (3 to 5 Days)</li>
-                    <li class="flex items-center gap-3"><i class="fas fa-check-circle text-indigo-600"></i> WhatsApp & Contact Form Integration</li>
+                    <li class="flex items-center gap-3"><i class="fas fa-check-circle text-indigo-600"></i> Up to 2 Rounds of Design Changes Included</li>
                 </ul>
             </div>
-            <div class="bg-indigo-50 rounded-2xl p-8 border border-indigo-100 shadow-inner">
+            <div data-aos="fade-left" data-aos-duration="800" class="bg-indigo-50 rounded-2xl p-8 border border-indigo-100 shadow-inner">
                 <h3 class="text-xl font-bold text-indigo-900 mb-4">What's Included in the Starter Package:</h3>
                 <div class="space-y-4">
-                    <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-100 flex items-start gap-4">
+                    <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-100 flex items-start gap-4 transition hover:shadow-md">
                         <div class="bg-indigo-100 text-indigo-600 p-3 rounded-lg"><i class="fas fa-mobile-alt"></i></div>
                         <div>
                             <h4 class="font-bold text-slate-800">Mobile Friendly</h4>
                             <p class="text-sm text-slate-500">Looks sharp on smartphones, tablets, and desktop displays.</p>
                         </div>
                     </div>
-                    <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-100 flex items-start gap-4">
+                    <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-100 flex items-start gap-4 transition hover:shadow-md">
                         <div class="bg-indigo-100 text-indigo-600 p-3 rounded-lg"><i class="fas fa-search"></i></div>
                         <div>
                             <h4 class="font-bold text-slate-800">Basic On-Page SEO</h4>
@@ -87,21 +101,23 @@
     <!-- HOW IT WORKS SECTION -->
     <section id="process" class="py-20 bg-slate-100">
         <div class="max-w-6xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold text-slate-900 mb-4">How It Works</h2>
-            <p class="text-slate-600 max-w-xl mx-auto mb-12">Getting your business online is quick and seamless with our 3-step process.</p>
+            <div data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">How It Works</h2>
+                <p class="text-slate-600 max-w-xl mx-auto mb-12">Getting your business online is quick and seamless with our 3-step process.</p>
+            </div>
             
             <div class="grid md:grid-cols-3 gap-8 text-left">
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <div data-aos="fade-up" data-aos-delay="100" class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 transition hover:-translate-y-1 hover:shadow-md">
                     <div class="text-indigo-600 text-2xl font-bold mb-3">Step 01</div>
                     <h3 class="text-xl font-bold mb-2">Send Your Details</h3>
                     <p class="text-slate-600 text-sm">Provide your business info, preferred color theme, text, images, and logo via WhatsApp or our contact form.</p>
                 </div>
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <div data-aos="fade-up" data-aos-delay="200" class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 transition hover:-translate-y-1 hover:shadow-md">
                     <div class="text-indigo-600 text-2xl font-bold mb-3">Step 02</div>
                     <h3 class="text-xl font-bold mb-2">We Build (3–5 Days)</h3>
-                    <p class="text-slate-600 text-sm">Our team puts together your stunning 1 to 5-page layout, optimizing it completely for mobile devices.</p>
+                    <p class="text-slate-600 text-sm">Sister Ekua Abrafi's team puts together your stunning 1 to 5-page layout, integrating up to 2 rounds of revisions.</p>
                 </div>
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <div data-aos="fade-up" data-aos-delay="300" class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 transition hover:-translate-y-1 hover:shadow-md">
                     <div class="text-indigo-600 text-2xl font-bold mb-3">Step 03</div>
                     <h3 class="text-xl font-bold mb-2">Launch & Go Live</h3>
                     <p class="text-slate-600 text-sm">Review your live preview link, finalize setup with or without a custom domain, and launch your brand!</p>
@@ -113,11 +129,13 @@
     <!-- PORTFOLIO / SAMPLE SITES -->
     <section class="py-20 bg-white">
         <div class="max-w-6xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold text-slate-900 mb-4">Starter Website Layouts</h2>
-            <p class="text-slate-600 max-w-xl mx-auto mb-12">Here is a glimpse of the professional style we bring to your business.</p>
+            <div data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Starter Website Layouts</h2>
+                <p class="text-slate-600 max-w-xl mx-auto mb-12">Here is a glimpse of the professional style we bring to your business.</p>
+            </div>
             
             <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 text-left">
+                <div data-aos="zoom-in" data-aos-delay="100" class="bg-slate-50 border border-slate-200 rounded-2xl p-6 text-left transition hover:shadow-md">
                     <div class="bg-indigo-100 rounded-xl h-40 mb-4 flex items-center justify-center text-indigo-500 font-semibold text-lg">
                         <i class="fas fa-store text-3xl"></i>
                     </div>
@@ -125,7 +143,7 @@
                     <p class="text-sm text-slate-500 mb-4">Perfect for artisans, salons, consultants, and agencies.</p>
                     <span class="text-xs font-semibold text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded-md">3 Pages Layout</span>
                 </div>
-                <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 text-left">
+                <div data-aos="zoom-in" data-aos-delay="200" class="bg-slate-50 border border-slate-200 rounded-2xl p-6 text-left transition hover:shadow-md">
                     <div class="bg-emerald-100 rounded-xl h-40 mb-4 flex items-center justify-center text-emerald-500 font-semibold text-lg">
                         <i class="fas fa-bullhorn text-3xl"></i>
                     </div>
@@ -133,7 +151,7 @@
                     <p class="text-sm text-slate-500 mb-4">Great for single products, events, or specific promotions.</p>
                     <span class="text-xs font-semibold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-md">1 Page Layout</span>
                 </div>
-                <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 text-left">
+                <div data-aos="zoom-in" data-aos-delay="300" class="bg-slate-50 border border-slate-200 rounded-2xl p-6 text-left transition hover:shadow-md">
                     <div class="bg-sky-100 rounded-xl h-40 mb-4 flex items-center justify-center text-sky-500 font-semibold text-lg">
                         <i class="fas fa-user-tie text-3xl"></i>
                     </div>
@@ -148,64 +166,93 @@
     <!-- PRICING & TIMELINE SECTION -->
     <section id="pricing" class="py-20 bg-slate-100">
         <div class="max-w-6xl mx-auto px-4">
-            <div class="text-center max-w-2xl mx-auto mb-16">
+            <div data-aos="fade-up" class="text-center max-w-2xl mx-auto mb-16">
                 <h2 class="text-3xl font-bold text-slate-900 mb-4">Transparent Pricing & Fast Delivery</h2>
                 <p class="text-slate-600">Choose the setup that fits your business needs. No hidden charges.</p>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-8 mb-12">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
                 <!-- Timeline Card -->
-                <div class="bg-white p-8 rounded-2xl border border-slate-200 text-center shadow-sm">
+                <div data-aos="fade-up" data-aos-delay="100" class="bg-white p-8 rounded-2xl border border-slate-200 text-center shadow-sm hover:shadow-md transition">
                     <div class="inline-flex p-3 bg-indigo-100 text-indigo-600 rounded-xl mb-4 text-xl">
                         <i class="fas fa-clock"></i>
                     </div>
                     <h3 class="text-lg font-bold text-slate-900 mb-2">Standard Timeline</h3>
                     <p class="text-3xl font-extrabold text-indigo-600 mb-4">3 – 5 Days</p>
-                    <p class="text-sm text-slate-600">From the moment we receive your content and details, your site is built and ready to launch in under a week.</p>
+                    <p class="text-sm text-slate-600">Built and ready to launch in under a week with up to 2 rounds of design changes included.</p>
                 </div>
 
                 <!-- Custom Domain Card -->
-                <div class="bg-indigo-900 text-white p-8 rounded-2xl border border-indigo-800 text-center relative shadow-lg">
+                <div data-aos="fade-up" data-aos-delay="200" class="bg-indigo-900 text-white p-8 rounded-2xl border border-indigo-800 text-center relative shadow-lg transform hover:-translate-y-2 transition duration-300">
                     <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-emerald-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Recommended</span>
                     <div class="inline-flex p-3 bg-indigo-800 text-indigo-200 rounded-xl mb-4 text-xl">
                         <i class="fas fa-globe"></i>
                     </div>
-                    <h3 class="text-lg font-bold mb-2">Custom Domain (.com / .org / .net)</h3>
+                    <h3 class="text-lg font-bold mb-2">Custom Domain (.com / .org)</h3>
                     <p class="text-2xl font-extrabold text-indigo-200 mb-4">GH¢ 400 – 500</p>
-                    <p class="text-sm text-indigo-300">Get a professional business domain name tailored to your brand pages (.com, .org, or .net extensions).</p>
+                    <p class="text-sm text-indigo-300">Get a professional business domain name tailored to your brand pages.</p>
                 </div>
 
                 <!-- Hosting Only Card -->
-                <div class="bg-white p-8 rounded-2xl border border-slate-200 text-center shadow-sm">
+                <div data-aos="fade-up" data-aos-delay="300" class="bg-white p-8 rounded-2xl border border-slate-200 text-center shadow-sm hover:shadow-md transition">
                     <div class="inline-flex p-3 bg-indigo-100 text-indigo-600 rounded-xl mb-4 text-xl">
                         <i class="fas fa-server"></i>
                     </div>
-                    <h3 class="text-lg font-bold text-slate-900 mb-2">Online Hosting (No Custom Domain)</h3>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Online Hosting</h3>
                     <p class="text-3xl font-extrabold text-indigo-600 mb-4">GH¢ 250 – 270</p>
-                    <p class="text-sm text-slate-600">Host your website online seamlessly even if you choose not to secure a custom domain name right away.</p>
+                    <p class="text-sm text-slate-600">Host your website online seamlessly without a custom domain right away.</p>
                 </div>
             </div>
+
+            <!-- PAYMENT TERMS CARD -->
+            <div data-aos="fade-up" class="bg-white border border-indigo-100 rounded-2xl p-8 shadow-sm max-w-4xl mx-auto">
+                <div class="flex flex-col md:flex-row items-center gap-6">
+                    <div class="bg-indigo-50 text-indigo-600 p-4 rounded-xl text-3xl">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="flex-1 text-center md:text-left">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Flexible Payment Terms & Structure</h3>
+                        <p class="text-slate-600 text-sm mb-4">To ensure a smooth project flow, we use a straightforward milestone payment plan:</p>
+                        <div class="grid sm:grid-cols-2 gap-4 text-left">
+                            <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
+                                <span class="block font-bold text-indigo-600 text-sm">1. Initial Deposit</span>
+                                <span class="text-xs text-slate-600">50% upfront payment to commence design work and secure hosting/domain.</span>
+                            </div>
+                            <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
+                                <span class="block font-bold text-indigo-600 text-sm">2. Final Balance</span>
+                                <span class="text-xs text-slate-600">Remaining 50% balance paid upon completion before full site handover.</span>
+                            </div>
+                        </div>
+                        <p class="text-xs text-slate-500 mt-4"><i class="fas fa-check text-emerald-500 mr-1"></i> Accepted payment methods: Mobile Money (MTN/Telecel) & Bank Transfers.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
     <!-- FAQ SECTION -->
     <section id="faq" class="py-20 bg-white">
         <div class="max-w-4xl mx-auto px-4">
-            <div class="text-center mb-16">
+            <div data-aos="fade-up" class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-slate-900 mb-3">Frequently Asked Questions</h2>
                 <p class="text-slate-600">Got questions? We have answers.</p>
             </div>
 
             <div class="space-y-6">
-                <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl">
+                <div data-aos="fade-up" data-aos-delay="100" class="bg-slate-50 border border-slate-200 p-6 rounded-2xl">
                     <h3 class="font-bold text-slate-800 text-lg mb-2">Do I need to provide my own text and pictures?</h3>
                     <p class="text-slate-600 text-sm">Yes, you provide your business content, logo, and photos. If you don't have images ready, we can guide you on finding great free alternatives or standard placeholders.</p>
                 </div>
-                <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl">
+                <div data-aos="fade-up" data-aos-delay="200" class="bg-slate-50 border border-slate-200 p-6 rounded-2xl">
+                    <h3 class="font-bold text-slate-800 text-lg mb-2">Are design revisions included if I want changes?</h3>
+                    <p class="text-slate-600 text-sm">Yes! Up to 2 rounds of design changes and adjustments are included during the build phase to ensure your website looks exactly how you want it.</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300" class="bg-slate-50 border border-slate-200 p-6 rounded-2xl">
                     <h3 class="font-bold text-slate-800 text-lg mb-2">What is the difference between online hosting and a custom domain?</h3>
                     <p class="text-slate-600 text-sm">Hosting simply puts your website online so it can be accessed over the internet. A custom domain gives you a professional name ending like .com or .org (e.g., yourname.com).</p>
                 </div>
-                <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl">
+                <div data-aos="fade-up" data-aos-delay="400" class="bg-slate-50 border border-slate-200 p-6 rounded-2xl">
                     <h3 class="font-bold text-slate-800 text-lg mb-2">How long does it take to complete the website?</h3>
                     <p class="text-slate-600 text-sm">Our standard timeline is 3 to 5 days once all your project content and payment arrangements have been confirmed.</p>
                 </div>
@@ -216,12 +263,12 @@
     <!-- CONTACT SECTION -->
     <section id="contact" class="py-20 bg-slate-100">
         <div class="max-w-4xl mx-auto px-4">
-            <div class="text-center mb-12">
+            <div data-aos="fade-up" class="text-center mb-12">
                 <h2 class="text-3xl font-bold text-slate-900 mb-3">Ready to Launch Your Website?</h2>
                 <p class="text-slate-600">Send us a message or connect directly via WhatsApp to get started.</p>
             </div>
             
-            <div class="bg-white border border-slate-200 rounded-2xl p-8 shadow-sm">
+            <div data-aos="zoom-in" class="bg-white border border-slate-200 rounded-2xl p-8 shadow-sm">
                 <!-- Form with JavaScript to send data to WhatsApp -->
                 <form id="whatsappForm" class="space-y-6" onsubmit="sendToWhatsApp(event)">
                     <div class="grid md:grid-cols-2 gap-6">
@@ -238,7 +285,7 @@
                         <label class="block text-sm font-medium text-slate-700 mb-2">Project Details / Business Type</label>
                         <textarea id="clientDetails" rows="4" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-indigo-600 focus:outline-none bg-white" placeholder="Tell us about your business or the pages you need..."></textarea>
                     </div>
-                    <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3.5 rounded-xl shadow-md transition">
+                    <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3.5 rounded-xl shadow-md transition transform hover:scale-[1.02]">
                         Submit Inquiry via WhatsApp
                     </button>
                 </form>
@@ -249,7 +296,7 @@
     <!-- FOOTER -->
     <footer class="bg-slate-900 text-slate-400 py-12">
         <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
-            <p class="text-sm">© 2026 Your Brand Name. All rights reserved.</p>
+            <p class="text-sm">© 2026 Elite Design by Sister Ekua Abrafi. All rights reserved.</p>
             <div class="flex space-x-6 text-lg">
                 <a href="#" class="hover:text-white transition"><i class="fab fa-facebook"></i></a>
                 <a href="#" class="hover:text-white transition"><i class="fab fa-instagram"></i></a>
@@ -259,7 +306,7 @@
     </footer>
 
     <!-- FLOATING WHATSAPP BUTTON -->
-    <a href="https://wa.me/233551523361" target="_blank" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-xl transition transform hover:scale-105" title="Chat on WhatsApp">
+    <a href="https://wa.me/233551523361" target="_blank" class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-xl transition transform hover:scale-110" title="Chat on WhatsApp">
         <i class="fab fa-whatsapp text-3xl"></i>
     </a>
 
@@ -268,20 +315,26 @@
         function sendToWhatsApp(event) {
             event.preventDefault(); // Prevent standard page refresh
 
-            // Get values from the form inputs
             const name = document.getElementById('clientName').value;
             const phone = document.getElementById('clientPhone').value;
             const details = document.getElementById('clientDetails').value;
 
-            // Your WhatsApp number
             const whatsappNumber = "233551523361";
+            const message = `Hello Sister Ekua Abrafi (Elite Design)! I want to build a website.%0A%0A*Name:* ${encodeURIComponent(name)}%0A*Phone:* ${encodeURIComponent(phone)}%0A*Project Details:* ${encodeURIComponent(details)}`;
 
-            // Format the message
-            const message = `Hello! I want to build a website.%0A%0A*Name:* ${encodeURIComponent(name)}%0A*Phone:* ${encodeURIComponent(phone)}%0A*Project Details:* ${encodeURIComponent(details)}`;
-
-            // Open WhatsApp with the pre-filled message
             window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
         }
+    </script>
+
+    <!-- AOS ANIMATION SCRIPT INITIALIZATION -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true, // whether animation should happen only once - while scrolling down
+            offset: 50, // offset (in px) from the original trigger point
+            duration: 600, // values from 0 to 3000, with step 50ms
+            easing: 'ease-out-cubic', // default easing for AOS animations
+        });
     </script>
 
 </body>
